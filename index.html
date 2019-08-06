@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Smoothie Stand</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.25">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <h1>Smoothie Stand</h1>
+
+    <div id="fruits">
+        <div class="item instructions">
+            <p>Click the fruits to pick them from the farm.</p>
+            <p>Your farm workers:</p>
+            <p id="strawberryPickers" class="highlight">Strawberry pickers: 0</p>
+            <p id="blueberryPickers" class="highlight">Blueberry pickers: 0</p>
+            <p id="cherryPickers" class="highlight">Cherry pickers: 0</p>
+        </div>
+
+        <div class="item">
+            <div class="imageBox">
+                <img id="strawberry" src="strawberry.png">
+            </div>
+            <p id="strawberries">Strawberries: 0</p>
+            <button id="hireStrawberryPicker" disabled>Picker - 10&cent; per second</button>
+        </div>
+
+        <div class="item">
+            <div class="imageBox">
+                <img id="blueberry" src="blueberry.png">
+            </div>
+            <p id="blueberries">Blueberries: 0</p>
+            <button id="hireBlueberryPicker" disabled>Picker - 10&cent; per second</button>
+        </div>
+
+        <div class="item">
+            <div class="imageBox">
+                <img id="cherry" src="cherry.png">
+            </div>
+            <p id="cherries">Cherries: 0</p>
+            <button id="hireCherryPicker" disabled>Picker - 10&cent; per second</button>
+        </div>
+
+        <div class="item instructions">
+            <p>Smoothie ingredients:</p>
+            <p class="ingredients"><img src="strawberry.png"><img src="strawberry.png"></p>
+            <p class="ingredients"><img src="blueberry.png"><img src="blueberry.png"><img src="blueberry.png"><img src="blueberry.png"><img src="blueberry.png"></p>
+            <p class="ingredients"><img src="cherry.png"><img src="cherry.png"><img src="cherry.png"></p>
+        </div>
+    </div>
+
+    <div>
+        <div class="item instructions">
+            <p>Click the blender to make a smoothie. Click the smoothies to sell them.</p>
+            <p>Your stand workers:</p>
+            <p id="operators" class="highlight">Blender operators: 0</p>
+            <p id="cashiers" class="highlight">Cashiers: 0</p>
+        </div>
+
+        <div class="item">
+            <div id="blenderBox">
+                <img id="blender" src="blender.jpg">
+            </div>
+            <button id="hireOperator" disabled>Operator - 90&cent; per second</button>
+        </div>
+
+        <div class="item">
+            <div class="imageBox">
+                <img id="smoothie" src="smoothie.png">
+            </div>
+            <p id="smoothies">Smoothies: 0</p>
+            <button id="hireCashier" disabled>Cashier - 90&cent; per second</button>
+        </div>
+
+        <div class="item">
+            <div class="imageBox">
+                <img id="moneyImage" src="money.png">
+            </div>
+            <p id="money">Money: $0.00</p>
+        </div>
+
+        <div class="item instructions">
+            <p>If you can't pay a worker, you will get a mark against you. If you get 50 marks, your workers will go on strike.</p>
+            <p id="missedPaychecks" class="highlight">Missed paychecks: 0</p>
+            <p id="strikeMessage" class="alert">Workers on strike</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
