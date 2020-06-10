@@ -1,0 +1,57 @@
+body {
+  background-color: beige;
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+.cell {
+  display: inline-block;
+  vertical-align: top;
+  width: 180px;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.instructions {
+  text-align: left;
+}
+
+.workers {
+  font-weight: bold;
+}
+
+.imageBox {
+  height: 125px;
+}
+
+#strawberryImage {
+  margin-top: 32px;
+}
+
+#blueberryImage {
+  margin-top: 12px;
+}
+
+#cherryImage {
+  margin-top: 12px;
+}
+
+#blenderBox {
+  height: 175.4px;
+}
+
+#blenderImage {
+  opacity: 50%;
+  margin-top: 4px;
+}
+
+#smoothieImage {
+  opacity: 50%;
+}
+
+#moneyImage {
+  opacity: 50%;
+  margin-top: 12px;
+}
