@@ -24,6 +24,11 @@ body {
 
 .imageBox {
   height: 125px;
+  touch-action: manipulation;
+}
+
+#blenderBox {
+  height: 175.4px;
 }
 
 #strawberryImage {
@@ -36,10 +41,6 @@ body {
 
 #cherryImage {
   margin-top: 12px;
-}
-
-#blenderBox {
-  height: 175.4px;
 }
 
 #blenderImage {

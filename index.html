@@ -1,89 +1,85 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Smoothie Stand</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.4" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
 
-<head>
-	<title>Smoothie Stand</title>
-	<meta name="viewport" content="width=device-width, initial-scale=0.25">
-	<link href="style.css" rel="stylesheet">
-	<script src="script.js" defer>
+  <body>
+    <h1>Smoothie Stand</h1>
 
-	</script>
-</head>
-
-<body>
-	<h1>Smoothie Stand</h1>
-
-	<div class="row">
-		<div class="cell instructions">
-			<p>Click the fruits to pick them from the farm.</p>
-			<p>Your farm workers:</p>
-			<p class="workers" id="strawberryPickersParagraph">Strawberry pickers: 0</p>
-			<p class="workers" id="blueberryPickersParagraph">Blueberry pickers: 0</p>
-			<p class="workers" id="cherryPickersParagraph">Cherry pickers: 0</p>
-		</div>
-
-		<div class="cell">
-			<div class="imageBox">
-				<img src="strawberry.png" id="strawberryImage">
+    <div class="row">
+      <div class="cell instructions">
+        <p>Click the fruits to pick them from the farm.</p>
+        <p>Your farm workers:</p>
+        <p class="workers" id="strawberryPickersParagraph">Strawberry pickers: 0</p>
+        <p class="workers" id="blueberryPickersParagraph">Blueberry pickers: 0</p>
+        <p class="workers" id="cherryPickersParagraph">Cherry pickers: 0</p>
       </div>
-      <p id="strawberriesParagraph">Strawberries: 0</p>
-      <button id="hireStrawberryPickerButton">Picker - 10&cent; per second</button>
-    </div>
 
-    <div class="cell">
-      <div class="imageBox">
-        <img src="blueberry.png" id="blueberryImage">
+      <div class="cell">
+        <div class="imageBox">
+          <img src="strawberry.png" id="strawberryImage" />
+        </div>
+        <p id="strawberriesParagraph">Strawberries: 0</p>
+        <button id="hireStrawberryPickerButton">Picker - 10&cent; per second</button>
       </div>
-      <p id="blueberriesParagraph">Blueberries: 0</p>
-      <button id="hireBlueberryPickerButton">Picker - 10&cent; per second</button>
-    </div>
 
-    <div class="cell">
-      <div class="imageBox">
-        <img src="cherry.png" id="cherryImage">
+      <div class="cell">
+        <div class="imageBox">
+          <img src="blueberry.png" id="blueberryImage" />
+        </div>
+        <p id="blueberriesParagraph">Blueberries: 0</p>
+        <button id="hireBlueberryPickerButton">Picker - 10&cent; per second</button>
       </div>
-      <p id="cherriesParagraph">Cherries: 0</p>
-      <button id="hireCherryPickerButton">Picker - 10&cent; per second</button>
-    </div>
 
-    <div class="cell instructions">
-      <p>Smoothie ingredients:</p>
-      <p>2 strawberries</p>
-      <p>5 blueberries</p>
-      <p>3 cherries</p>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="cell instructions">
-      <p>Click the blender to make a smoothie. Click the smoothies to sell them.</p>
-      <p>Your stand workers:</p>
-      <p class="workers" id="operatorsParagraph">Blender operators: 0</p>
-      <p class="workers" id="cashiersParagraph">Cashiers: 0</p>
-    </div>
-
-    <div class="cell">
-      <div id="blenderBox">
-        <img src="blender.jpg" id="blenderImage">
+      <div class="cell">
+        <div class="imageBox">
+          <img src="cherry.png" id="cherryImage" />
+        </div>
+        <p id="cherriesParagraph">Cherries: 0</p>
+        <button id="hireCherryPickerButton">Picker - 10&cent; per second</button>
       </div>
-      <button id="hireOperatorButton">Operator - 90&cent; per second</button>
-    </div>
 
-    <div class="cell">
-      <div class="imageBox">
-        <img src="smoothie.png" id="smoothieImage">
+      <div class="cell instructions">
+        <p>Smoothie ingredients:</p>
+        <p>2 strawberries</p>
+        <p>5 blueberries</p>
+        <p>3 cherries</p>
       </div>
-      <p id="smoothiesParagraph">Smoothies: 0</p>
-      <button id="hireCashierButton">Cashier - 90&cent; per second</button>
     </div>
 
-    <div class="cell">
-      <div class="imageBox">
-          <img src="money.png" id="moneyImage">
+    <div class="row">
+      <div class="cell instructions">
+        <p>Click the blender to make a smoothie. Click the smoothies to sell them.</p>
+        <p>Your stand workers:</p>
+        <p class="workers" id="operatorsParagraph">Blender operators: 0</p>
+        <p class="workers" id="cashiersParagraph">Cashiers: 0</p>
       </div>
-      <p id="moneyParagraph">Money: $0.00</p>
-    </div>
-  </div>
-</body>
 
+      <div class="cell">
+        <div class="imageBox" id="blenderBox">
+          <img src="blender.jpg" id="blenderImage" />
+        </div>
+        <button id="hireOperatorButton">Operator - 90&cent; per second</button>
+      </div>
+
+      <div class="cell">
+        <div class="imageBox">
+          <img src="smoothie.png" id="smoothieImage" />
+        </div>
+        <p id="smoothiesParagraph">Smoothies: 0</p>
+        <button id="hireCashierButton">Cashier - 90&cent; per second</button>
+      </div>
+
+      <div class="cell">
+        <div class="imageBox">
+          <img src="money.png" id="moneyImage" />
+        </div>
+        <p id="moneyParagraph">Money: $0.00</p>
+      </div>
+    </div>
+  </body>
 </html>

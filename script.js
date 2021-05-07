@@ -91,8 +91,7 @@ function updateFruits() {
 
   if (strawberries >= 2 && blueberries >= 5 && cherries >= 3) {
     blenderImage.style.opacity = `100%`
-  }
-  else {
+  } else {
     blenderImage.style.opacity = `50%`
   }
 }
@@ -102,8 +101,7 @@ function updateSmoothies() {
 
   if (smoothies >= 1) {
     smoothieImage.style.opacity = `100%`
-  }
-  else {
+  } else {
     smoothieImage.style.opacity = `50%`
   }
 }
@@ -113,8 +111,7 @@ function updateMoney() {
 
   if (money > 0) {
     moneyImage.style.opacity = `100%`
-  }
-  else {
+  } else {
     moneyImage.style.opacity = `50%`
   }
 }
